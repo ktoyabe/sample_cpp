@@ -2,6 +2,6 @@
 
 #include <iostream>
 
-void hello() {
-    std::cout << "Hello, World!!!" << std::endl;
+void hello(const char* msg) {
+    std::cout << "Hello, " << msg << "!" << std::endl;
 }

@@ -2,6 +2,6 @@
 #include "library.h"
 
 int main(int argc, char* args[]) {
-    hello();
+    hello("cmake");
     return 0;
 }
